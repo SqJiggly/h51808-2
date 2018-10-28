@@ -1,0 +1,814 @@
+body{
+    font-size: 12px;
+}
+.scroll-to-top {
+    width: 50px;
+    height: 60px;
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    left: 50%;
+    margin-left: 520px;
+    background-color: #fff;
+    border: 1px #ccc solid;
+    cursor: pointer;
+    /*z-index: 999;*/
+}
+.scroll-to-top i {
+    display: inline-block;
+    background: url(../img/jlt2.png) no-repeat -229px -243px;
+    width: 27px;
+    height: 39px;
+    margin: 12px;
+}
+#Chead{
+    height: 200px;
+}
+.Chead{
+    height: 200px;
+}
+.Chead .Chead_top{
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    background: #f2f2f2;
+    position: relative;
+}
+.shopping-list dl dt img {
+    width: 53px;
+    height: 67px;
+    border: 1px solid #f3f3f3;
+}
+.Chead .one_s{
+    margin-left: 11px;
+}
+.Chead .one_aa{
+    display:inline-block;
+    height: 30px;
+    padding: 0 10px;
+    color: #f52648;
+    font-weight: bold;
+}
+.Chead .fa{
+    font-family: fontawesome;
+    font-size: 12px;
+    color:black;
+}
+.Chead .city{
+    display:none;
+    position: absolute;
+    z-index: 1000;
+}
+.Chead .city ul{
+    width: 311px;
+    height: 216px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    padding: 15px 0 10px 0;
+    display:inline-block;
+}
+.Chead .city ul li{
+    float: left;
+    width: 58px;
+    text-indent: 22px;;
+}
+.Chead .city ul li a{
+    color:#666;
+}
+.Chead .city span{
+    width: 97px;
+    padding: 0 10px;
+    height: 29px;
+    border-left: 1px solid #dfdfdf;
+    background: #fff;
+    border-right: 1px solid #dfdfdf;
+    position: absolute;
+    left: 0;
+    top: -29px;
+}
+.Chead .cheadapp{
+
+    float: right;
+    padding: 0 0 0 10px;
+    background-position: -527px -248px;
+    cursor: pointer;
+    color: #f52648;
+    /*position:relative;*/
+}
+.Chead .cheadapp i{
+    color:red;
+    font-size: 20px;
+    /*margin-right: 4px;*/
+    /*position:absolute;
+    top:5px;
+    left:-2px;*/
+}
+.Chead .cheadsave{
+    position: relative;
+    float: right;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+    text-indent: 0;
+    margin-right: 10px;
+}
+.Chead .fast-nav{
+    float: right;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+    text-indent: 0;
+    margin-right: 10px;
+    padding: 0 11px 0 0;
+}
+.Chead .Chead-floatmenu{
+    position: absolute;
+    right: 224px;
+    top: 0;
+    height: 269px;
+    z-index: 999;
+}
+.Chead-floatmenu div{
+    position: absolute;
+    top: 29px;
+    border: 1px solid #dfdfdf;
+    width: 137px;
+    padding-top: 6px;
+    background: #fff;
+}
+.Chead-floatmenu div a {
+    float: left;
+}
+.Chead-floatmenu a {
+    display: inline;
+    float: left;
+    width: 66px;
+    height: 28px;
+    overflow: hidden;
+    color: #333;
+    text-indent: 12px;
+}
+.Chead-floatmenu h6 {
+    width: 137px;
+    text-align: center;
+    height: 158px;
+    overflow: hidden;
+    color: #f52648;
+    text-indent: 0;
+}
+.Chead-floatmenu h6 img {
+    display: block;
+    margin: 12px auto 6px auto;
+    width: auto;
+}
+.Chead-floatmenu h6 b {
+    display: block;
+    line-height: 20px;
+}
+.Chead-floatmenu span.turl {
+    position: absolute;
+    top: 0;
+    width: 64px;
+    position: absolute;
+    left: 0;
+    left: 17px\9;
+    background: #fff;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    text-indent: 11px;
+}
+.Chead .Chead_myh{
+    padding: 0 11px 0 0;
+    position: relative;
+    float: right;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+    text-indent: 0;
+    color: #666666;
+}
+.Chead .turl i {
+    display: inline-block;
+    background-image: url(../img/jlt.png);
+    background-repeat: no-repeat;
+    background-position: -96px 0;
+    width: 8px;
+    height: 4px;
+    border: none;
+    position: absolute;
+    top: 14px;
+    right: 1px;
+}
+.Chead-myhome {
+    right: 220px;
+    position: absolute;
+    background: #fff;
+    z-index: 99;
+    top: 0;
+    overflow: hidden;
+    border: 1px solid #dfdfdf;
+    padding-bottom: 4px;
+    width: 77px;
+}
+.Chead-myhome a {
+    color: #333;
+    text-indent: 5px;
+    display: block;
+    line-height: 2;
+    text-indent: 8px;
+    margin-bottom: 4px;
+}
+.Chead-myhome .turl {
+    margin: 2px 21px 11px 0;
+    position: relative;
+    float: right;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+    text-indent: 0;
+}
+.Chead-myhome .turl i {
+    display: inline-block;
+    background-image: url(../img/jlt.png);
+    background-repeat: no-repeat;
+    background-position: -96px 0;
+    width: 8px;
+    height: 4px;
+    border: none;
+    position: absolute;
+    top: 14px;
+    right: 1px;
+}
+.Chead-welcome{
+    float: right;
+    margin-right: 10px;
+}
+.Chead-main {
+    position: relative;
+    width: 1000px;
+    height: 170px;
+    margin: 0 auto;
+    z-index: 120;
+}
+.Chead-logo {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 180px;
+    height: 90px;
+    z-index: 95;
+}
+.Chead-logo a {
+    width: 171px;
+    height: 88px;
+    display: inline-block;
+    background: transparent url(../img/logo.png) no-repeat;
+}
+.Chead-search {
+    position: relative;
+    z-index: 95;
+    display: inline;
+    float: left;
+    width: 400px;
+    height: 58px;
+    margin: 31px 0 0 300px;
+}
+.search-input {
+    background-image: url(../img/jlt.png);
+    background-repeat: no-repeat;
+    background-position: 0 -443px;
+    height: 40px;
+    margin-top: 5px;
+    position: relative;
+    width: 400px;
+    height: 40px;
+}
+.search-submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 72px;
+    height: 40px;
+    cursor: pointer;
+    overflow: hidden;
+    color: #fff;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+}
+.search-input input {
+    float: left;
+    width: 298px;
+    height: 27px;
+    padding: 6px 10px 5px 17px;
+    line-height: 27px;
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 14px;
+    outline: 0 none;
+}
+.search-input .searchtip {
+    display: none;
+    float: none;
+    left: 1px;
+    top: 40px;
+    height: auto;
+    width: 327px!important;
+    color: #666;
+    border: 1px solid rgb(222, 212, 213);
+    position: absolute;
+    z-index: 9999;
+    padding: 5px 0px;
+    background: rgb(255, 255, 255);
+    border-top: none;
+}
+.Chead-search p {
+    line-height: 33px;
+    color: #999;
+    overflow: hidden;
+    text-indent: 1em;
+    width: 360px;
+    overflow: hidden;
+    float: left;
+    font-size: 12px;
+}
+.Chead-search p a.highlight {
+    color: #ff0056;
+}
+.Chead-search p a {
+    margin: 0 10px 0 0;
+    line-height: 33px;
+    overflow: hidden;
+    font-size: 12px;
+}
+.Chead-shopping-wrap {
+    float: right;
+    position: relative;
+    z-index: 97;
+}
+.Chead-shopping {
+    position: absolute;
+    right: 0;
+    top: 38px;
+    z-index: 98;
+}
+.shopping-btn {
+    width: 136px;
+    height: 42px;
+    background-image: url(../img/jlt.png);
+    background-position: 0 -112px;
+    cursor: pointer;
+}
+.shopping-btn strong, .shopping-list-title strong {
+    line-height: 1em;
+    font: bold 14px/41px Arial;
+    color: #fff;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    left: 97px;
+    top: 12px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 8px;
+    text-indent: 0;
+    line-height: 1em;
+}
+.shopping-list {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    width: 300px;
+    /*display: none;*/
+    z-index: 100;
+    /*filter: \9;*/
+}
+.shopping-list-title {
+    background-image: url(../img/jlt.png);
+    background-position: 0 -156px;
+    width: 300px;
+    height: 42px;
+    /*_overflow: hidden;*/
+    cursor: pointer;
+}
+.shopping-list-title strong {
+    left: 262px;
+}
+.noshop {
+    width: 298px;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 12px;
+}
+.shopping-list-pro {
+    background: #fff;
+    width: 278px;
+    max-height: 351px;
+    overflow-y: auto;
+    padding: 10px;
+    border-left: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    position: relative;
+}
+.Cnav-main {
+    height: 40px;
+    width: 1000px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    /*_bottom: -1px;*/
+    left: 0;
+    z-index: 90;
+    background: #f52648;
+}
+.Cnav-menu-btn.active {
+    background-color: #d62340;
+}
+.Cnav-menu-btn {
+    width: 220px;
+    height: 40px;
+    display: inline-block;
+    background-color: #E03642;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.Cnav-menu-btn>a {
+    color: #fff;
+    cursor: default;
+}
+.Cnav-menu-btn.active i {
+    transform: rotate(180deg);
+}
+.Cnav-menu-btn i {
+    display: inline-block;
+    width: 10px;
+    height: 6px;
+    background: url(../img/jlt2.png);
+    vertical-align: middle;
+    margin-left: 5px;
+    transition: transform .2s;
+}
+.Cnav-one {
+    height: 40px;
+    float: left;
+    overflow: hidden;
+    text-indent: 0;
+    display: inline;
+}
+.Cnav-one a {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 12px;
+    overflow: hidden;
+    float: left;
+    text-decoration: none;
+}
+.Cnav-one a:hover{
+    background-color: #d62340;
+}
+.Cnav-right {
+    float: right;
+}
+.Cnav-right>a {
+    display: inline-block;
+    width: 23px;
+    height: 25px;
+    margin: 7px;
+    background-image: url(../img/jlt.png);
+    background-repeat: no-repeat;
+}
+.Cnav-right-icon-1 {
+    background-position: -96px -13px;
+}
+.Cnav-right-icon-2 {
+    background-position: -119px -13px;
+}
+.Cnav-right-icon-3 {
+    background-position: -142px -13px;
+}
+.fl-main {
+    position: relative;
+    width: 1000px;
+    height: 0px;
+    margin: 0 auto;
+    z-index: 49;
+    text-align: left;
+}
+.float-list {
+    height: 360px;
+    opacity: 1 ;
+    background: #f7f7f7;
+    position: absolute;
+    box-shadow: 0 0 7px #ccc;
+    background-color: #f7f7f7;
+    z-index: 96;
+    left: 0;
+    top: 0px;
+    width: 220px;
+    height: 0;
+    display: block;
+    transition: height .2s,box-shadow .2s,opacity .2s; 
+}
+.float-list dl{
+    position: relative;
+}
+.float-list dl dt {
+    background: #f7f7f7;
+    display: inline;
+    position: relative;
+    float: left;
+    width: 189px;
+    padding: 10px 0px 2px 0px;
+    margin: 0 7px 0 14px;
+    line-height: 22px;
+    overflow: hidden;
+    height: 96px;
+    border-bottom: 1px solid #eee;
+}
+.float-list dl dt strong {
+    float: left;
+    width: 100%;
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    margin: 0 0 5px;
+    overflow: hidden;
+    color: #333;
+    font-size: 14px;
+    /*font-family: '\5B8B\4F53';*/
+    font-weight: bold;
+    font-family: "microsoft yahei";
+}
+.orderDivId strong img {
+    display: inline-block ;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+    width: auto ;
+}
+.float-list dl dt p {
+    clear: both;
+    height: 72px;
+    padding: 0 0 0 5px;
+    line-height: 24px;
+    overflow: hidden;
+}
+.float-list dl dt a {
+    padding: 0 6px 0 0;
+    width: 30%;
+    color: #666;
+    line-height: 26px;
+    font-weight: normal;
+    font-size: 13px;
+    table-layout: fixed;
+    white-space: nowrap;
+    float: left;
+    font-family: "microsoft yahei";
+}
+.float-list dl dt a:hover{
+    color:red;
+}
+.float-list dl dd {
+    width: 692px;
+    padding: 0 0 20px;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    background: #fff;
+    color: #000;
+    box-shadow: 2px 2px 3px #999;
+}
+.float-list dl dd ul {
+    display: inline;
+    float: left;
+    width: 316px;
+    margin: 10px 5px 0 20px;
+    line-height: 24px;
+    overflow: hidden;
+}
+.float-list dl dd ul li {
+    margin: 0 0 5px;
+    display: inline-block;
+}
+.float-list dl dd ul strong {
+    width: 70px;
+    display: inline-block;
+    margin: 0 0 7px;
+    float: left;
+}
+.float-list dl dd ul strong a {
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 33px;
+}
+.float-list-cont {
+    display: inline-block;
+    width: 240px;
+    border-bottom: 1px #ccc dotted;
+    float: left;
+    padding: 4px 0 6px 0;
+}
+.float-list dl dd ul .float-list-cont a {
+    margin: 0 14px 0 0;
+    line-height: 25px;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 13px;
+    color: #999;
+}
+.first-show {
+    position: relative;
+    clear: both;
+    /*height: 360px;*/
+    margin: 0 0 0px;
+    overflow: hidden;
+}
+.first-show img{
+    width: 1349px;
+    height: 360px;
+}
+.first-showul{
+    position: absolute;
+    left:0px;
+}
+.first-show span{width: 20px;height: 20px;border-radius: 50%;position:absolute;
+                right: 10px;bottom: 10px;text-align: center;}
+.first-show span:nth-child(2){margin-right: 100px;}
+.first-show span:nth-child(3){margin-right: 75px;}
+.first-show span:nth-child(4){margin-right: 50px;}
+.first-show span:nth-child(5){margin-right: 25px;}
+.first-show .span{background:red;}
+.first-showul li{
+    float: left;
+    list-style: none;
+}
+
+.tit {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0 10px;
+    overflow: hidden;
+}
+.tit-2 i {
+    background:url(../img/jlt3.png) no-repeat;
+    background-position: 0 -64px;
+    width: 118px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 20px;
+}
+.tit span {
+    font-size: 18px;
+    color: #999;
+}
+.tit b {
+    color: red;
+    font-weight: normal;
+}
+.moreBrand {
+    float: right;
+    display: inline-block;
+    margin-top: 20px;
+    color: #999;
+}
+.content {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.content-2 {
+    width: 1008px;
+    padding: 10px 0;
+}
+.content-2 .brand-item {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 492px;
+    margin: 0px 6px 20px;
+}
+.content-2 .brand-info {
+    font-size: 14px;
+    color: #4d4d4d;
+    line-height: 21px;
+    height: 21px;
+    padding: 12px 8px 2px;
+}
+.content-2 img {
+    width: 100%;
+    max-width: 100%;
+    height: 216px;
+    border-radius: 3px;
+    transition: box-shadow .2s;
+}
+.tit-8 {
+    border-bottom: solid 2px #c835bf;
+}
+.tit-8 i {
+    
+    background: url(../img/jlt3.png) no-repeat;
+    background-position: 0 -264px;
+    width: 118px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 20px;
+}
+.content-8 {
+    width: 1028px;
+}
+.content-8>div {
+    background-color: #fff;
+    width: 227px;
+    margin: 15px;
+    box-shadow: 0 0 5px #ccc;
+}
+.pro-list- {
+    width: 240px;
+    height: 338px;
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+.pro-pic {
+    width: 100%;
+    height: 253px;
+    overflow: hidden;
+    text-align: center;
+}
+.pro-pic img {
+    width: 200px;
+    height: 253px;
+}
+.pro-nam {
+    width: 200px;
+    height: 38px;
+    line-height: 18px;
+    padding-top: 5px;
+    font-size: 14px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.pro-nam b {
+    font-size: 14px;
+    color: #F52648;
+    font-weight: bold;
+    font-family: Microsoft Yahei;
+}
+.pro-nam a {
+    color: #666;
+}
+.pro-nam i {
+    color: #f52648;
+    font-style: normal;
+    padding-left: 3px;
+}
+.pro-pri {
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    padding-top: 8px;
+}
+.pro-pri>b {
+    padding-left: 5px;
+    color: #999;
+    text-decoration: line-through;
+}
+.pro-pri span{
+    font-size: 18px;
+}
+.wrap {
+    position: absolute;
+    top: 56px;
+    left: 30px;
+}
+.add-to-cart {
+    width: 96px;
+    height: 28px;
+    display: block;
+    background-image: url(../img/jlt.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    overflow: hidden;
+    margin-top: 10px;
+    color: #fff;
+    line-height: 27px;
+    text-align: center;
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+    opacity: 0;
+}
